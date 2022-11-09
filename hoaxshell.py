@@ -2,7 +2,9 @@
 #
 # Author: Panagiotis Chartas (t3l3machus)
 # Edited by Samuel PAGES lines : 
+#
 #       import os 
+#
 #       parser.add_argument("-of","--out-file", action="store", help = "Path of the raw's payload."), def encodePayload(payload):
 #	
 #       enc_payload = "powershell -e " + base64.b64encode(payload.encode('utf16')[2:]).decode()
