@@ -18,7 +18,7 @@
 #		except FileNotFoundError:
 #			exit_with_msg('Failed to retrieve the file, (check -h for more details)')
 #	print(f'{PLOAD}{enc_payload}{END}')
-"
+#
 #
 # Reference : https://github.com/t3l3machus
 
