@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo apt install powershell
+if ! command -v pwsh &> /dev/null; then
+        sudo apt install powershell
+fi
 
 FILE1=../hoaxshell/py.log
 FILE2=./info
