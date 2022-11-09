@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install powershell
+
 FILE1=../hoaxshell/py.log
 FILE2=./info
 
