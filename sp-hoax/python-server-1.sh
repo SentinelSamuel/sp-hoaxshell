@@ -1,14 +1,15 @@
 #!/bin/bash
 
-FILE1=/home/kali/python-server/reverse-shells/hoaxshell/py.log
-FILE2=/home/kali/python-server/reverse-shells/sp-hoax/info
+FILE1=../hoaxshell/py.log
+FILE2=./info
 
 if test -f "$FILE1"; then 
-        sudo rm /home/kali/python-server/reverse-shells/hoaxshell/py.log 
+        sudo rm $FILE1
 fi
 
 if 
-        test -f "$FILE2"; then sudo rm /home/kali/python-server/reverse-shells/sp-hoax/info 
+        test -f "$FILE2"; then 
+        sudo rm $FILE2
 fi
 
 sudo python3 -m http.server --directory /home/kali/python-server/ 70
