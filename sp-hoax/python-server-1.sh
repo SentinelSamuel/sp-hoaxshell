@@ -12,4 +12,4 @@ if
         sudo rm $FILE2
 fi
 
-sudo python3 -m http.server --directory /home/kali/python-server/ 70
+sudo python3 -m http.server --directory ../ 70
