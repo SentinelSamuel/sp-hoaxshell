@@ -1,6 +1,7 @@
 # sp-hoaxshell
 Copy of the real Hoaxshell (https://github.com/t3l3machus/hoaxshell) with modifications to automatise everything
 
+
 ## Installation + configuration before the start
 ```
 git clone https://github.com/t3l3machus/hoaxshell.git
@@ -12,4 +13,9 @@ sudo rm -rf ./sp-hoaxshell
 sudo pip3 install -r ./hoaxshell/requirements.txt
 chmod +x ./hoaxshell/hoaxshell.py
 cd sp-hoax/
+```
+
+### Start Python server
+```
+bash python-server-1.sh
 ```
