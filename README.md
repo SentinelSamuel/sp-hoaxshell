@@ -19,3 +19,7 @@ cd sp-hoax/
 ```
 bash python-server-1.sh
 ```
+### Start hoaxshell
+```
+bash hoaxshell-2.sh 
+```
