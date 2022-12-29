@@ -15,17 +15,17 @@ chmod +x ./hoaxshell/hoaxshell.py
 cd sp-hoax/
 ```
 
-### Start Python server
+### 1) Start Python server
 ```
 # maybe a sudo before ?
 bash python-server-1.sh
 ```
-### Start hoaxshell
+### 2) Start hoaxshell
 ```
 # maybe a sudo before ?
 bash hoaxshell-2.sh  
 ```
-### Make the info file correct
+### 3) Make the info file correct
 ```
 # maybe a sudo before ?
 pwsh info-3.ps1
