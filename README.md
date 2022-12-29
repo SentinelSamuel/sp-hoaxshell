@@ -1,6 +1,7 @@
 # sp-hoaxshell
 Copy of the real Hoaxshell (https://github.com/t3l3machus/hoaxshell) with modifications to automatise everything
 
+## Installation + configuration before the start
 ```
 git clone https://github.com/t3l3machus/hoaxshell.git
 sudo rm ./hoaxshell/hoaxshell.py
