@@ -17,9 +17,16 @@ cd sp-hoax/
 
 ### Start Python server
 ```
+# maybe a sudo before ?
 bash python-server-1.sh
 ```
 ### Start hoaxshell
 ```
-bash hoaxshell-2.sh 
+# maybe a sudo before ?
+bash hoaxshell-2.sh  
+```
+### Make the info file correct
+```
+# maybe a sudo before ?
+pwsh info-3.ps1
 ```
